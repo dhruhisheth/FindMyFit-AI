@@ -27,7 +27,7 @@ FindMyFit.AI is a smart, voice-activated personal stylist that analyzes your out
 
 ## 🚀 Getting Started
 
-### 1. Clone this repository
+#### 1. Clone this repository
 
 ```bash
 git clone https://github.com/dhruhisheth/FindMyFit-AI.git
@@ -39,7 +39,7 @@ cd FindMyFit-AI
 pip install -r requirements.txt
 ```
 
-### 3. Set up your `.env` file  
+#### 3. Set up your `.env` file  
 Create a `.env` file in the root directory:
 ```bash
 GROQ_API_KEY=your_groq_api_key_here
@@ -47,7 +47,7 @@ ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
 ```  
 ✅ Never commit this file — it’s already in `gitignore`.
 
-### 4. Run the application
+#### 4. Run the application
 ```bash
 python gradio_app.py
 ```  
@@ -69,7 +69,7 @@ FindMyFit-AI/
 ```
 ---
 
-### 💡 Example Interaction  
+## 💡 Example Interaction  
 
 > 🎤 _"Does this outfit work for a summer brunch?"_  
 > 🖼️ _(You upload your outfit image)_   
@@ -77,5 +77,5 @@ FindMyFit-AI/
 
 ---
 
-### 🛡️ Security Reminder  
+## 🛡️ Security Reminder  
 Please keep your `.env` file private. This project uses environment variables to manage sensitive API keys (GROQ and ElevenLabs). The `.env` file is excluded from version control by default.
